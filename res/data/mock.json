@@ -1,0 +1,255 @@
+{
+  "kategorier": {
+    "for-de-yngre": {
+      "battleshit": {
+        "titel": "Battleshi*",
+        "beskrivning": "Krig är inte kul, därför har Havebro skapat en vänligare variant av Battleship. (Obs. Bajs ej inkluderat)",
+        "imgsrc": "battleshit.jpg",
+        "betyg": 3,
+        "pris": {
+          "orginal": 599,
+          "rea": 598
+        },
+        "lager": 12,
+        "alder": "11+",
+        "kommentarer": [
+          {
+            "namn": "Bert A.",
+            "kommentar": "haha bajs",
+            "betyg": 3
+          }
+        ]
+      },
+      "sten-sax-pase": {
+        "titel": "Sten, Sax, Påse",
+        "beskrivning": "En riktig klassiker som man bara måste ha hemma! (Obs. Stenen på bilden kan variera till den du får i påsen eftersom de är handplockade)",
+        "imgsrc": "sten_sax_pase.jpg",
+        "betyg": 4,
+        "pris": {
+          "orginal": 99,
+          "rea": 68
+        },
+        "lager": 89,
+        "alder": "11+",
+        "kommentarer": [
+          {
+            "namn": "Ing-marie U.",
+            "kommentar": "Påsen gick sönder efter första matchen. 2/5",
+            "betyg": 2
+          },
+          {
+            "namn": "Britt B.",
+            "kommentar": "Utöver ett roligt spel så kan stenen användas som prydnad :)",
+            "betyg": 4
+          }
+        ]
+      },
+      "med-samma-ord": {
+        "titel": "Med Samma Ord",
+        "beskrivning": "Beskriv ord med samma ord. Enklare än så blir det inte. Perfekt för att köra med bästa kompisen.",
+        "imgsrc": "samma_ord.jpg",
+        "betyg": 1,
+        "pris": {
+          "orginal": 199,
+          "rea": 27
+        },
+        "lager": 4,
+        "alder": "2+",
+        "kommentarer": [
+          {
+            "namn": "Sven Q.",
+            "kommentar": "Va jätte hypad och tog med det till en hemmafest men alla tröttnade ganska snabbt.",
+            "betyg": 1
+          }
+        ]
+      }
+    },
+    "atbara-pjaser": {
+      "cheese-board": {
+        "titel": "Cheese Board (ost schack)",
+        "beskrivning": "Inget har varit mer avnjutningsbart än att äta upp sin motståndares bönder. Perfekt att spela till lunchen.",
+        "imgsrc": "cheese_board.jpg",
+        "betyg": 1,
+        "pris": {
+          "orginal": 399,
+          "rea": 359
+        },
+        "lager": 3,
+        "alder": "5+",
+        "kommentarer": [
+          {
+            "namn": "Sven Q.",
+            "kommentar": "Gillar inte ädelost. Har ni en variant med brie?",
+            "betyg": 1
+          }
+        ]
+      },
+      "gelerattfallan": {
+        "titel": "Geleråttfällan",
+        "beskrivning": "Väldigt kladdigt och väldigt roligt! (Obs. Kan innehålla utgånget godis.)",
+        "imgsrc": "gelerattfallan.jpg",
+        "betyg": 5,
+        "pris": {
+          "orginal": 199,
+          "rea": 59
+        },
+        "lager": 43,
+        "alder": "6+",
+        "kommentarer": [
+          {
+            "namn": "",
+            "kommentar": "",
+            "betyg": 1
+          }
+        ]
+      },
+      "cheesers": {
+        "titel": "Cheesers (Babybel varianten)",
+        "beskrivning": "Gott gott gott! När du tar över en motståndares pjäs får du käka upp den! (Obs. Se till att kolla utgångdatum på osten innan du spelar)",
+        "imgsrc": "cheesers.jpg",
+        "betyg": 5,
+        "pris": {
+          "orginal": 498,
+          "rea": 469
+        },
+        "lager": 12,
+        "alder": "6+",
+        "kommentarer": [
+          {
+            "namn": "Karl-Johan I.",
+            "kommentar": "Fick rännskita efter en match. Om jag kunde ge 0 stjärnor skulle jag gjort det. 1/5",
+            "betyg": 1
+          }
+        ]
+      }
+    },
+    "forra-arets-spel": {
+      "agnej": {
+        "titel": "Agnej (Bygg ditt egna torn!)",
+        "beskrivning": "Bit förbit så bygger du ditt egna torn. Kan spelas själv eller med flera.",
+        "imgsrc": "agnej.jpg",
+        "betyg": 2,
+        "pris": {
+          "orginal": 399,
+          "rea": 199
+        },
+        "lager": 1,
+        "alder": "6+",
+        "kommentarer": [
+          {
+            "namn": "Sven-Erik Q.",
+            "kommentar": "Jag är ingenjör och det här va nog det enklaste spelet jag spelat.",
+            "betyg": 2
+          }
+        ]
+      },
+      "drakar och dank memes": {
+        "titel": "Drakar & Dank Memes (2010 edition)",
+        "beskrivning": "Perfekt till barn barnet som gillar memes. Karaktärer så som Trollface och Trololo i denna värld.",
+        "imgsrc": "drakar.jpg",
+        "betyg": 5,
+        "pris": {
+          "orginal": 999,
+          "rea": 995
+        },
+        "lager": 4,
+        "alder": "8+",
+        "kommentarer": [
+          {
+            "namn": "Örjan T.",
+            "kommentar": "Körde detta med mitt barn barn. Det va ett märkligt spel... Men kul!",
+            "betyg": 5
+          }
+        ]
+      },
+      "den-funna-diamanten": {
+        "titel": "Den Funna Diamanten",
+        "beskrivning": "ÄNTLIGEN HITTADE DU DEN!",
+        "imgsrc": "den_funna_diamanten.jpg",
+        "betyg": 1,
+        "pris": {
+          "orginal": 200,
+          "rea": 199
+        },
+        "lager": 11,
+        "alder": "8+",
+        "kommentarer": [
+          {
+            "namn": "Triss T.",
+            "kommentar": "Köpte det men kom inte med några instruktioner....",
+            "betyg": 1
+          }
+        ]
+      }
+    },
+    "mast-populara": {
+      "tva-i-rad": {
+        "titel": "Connect 2 (Två I Rad)",
+        "beskrivning": "En rolig twist på Fyra i rad! Ett spel som alla kan köra eftersom den har en enkel inlärningskurva. En oskriven regel är att den som köper spelet får alltid börja först, men man kan också singla slant.",
+        "imgsrc": "connect_2.jpg",
+        "betyg": 3,
+        "pris": {
+          "orginal": 199,
+          "rea": 22
+        },
+        "lager": 2,
+        "alder": "1+",
+        "kommentarer": [
+          {
+            "namn": "Tobias S.",
+            "kommentar": "Älskar detta spel. Väldigt enkelt att lära sig, brukar köra mot min 3 åring. Han blir oftast väldigt arg när jag alltid verkar vinna.",
+            "betyg": 5
+          },
+          {
+            "namn": "Isak H.",
+            "kommentar": "Förlorar hela tiden, sugit spel ngl",
+            "betyg": 1
+          }
+        ]
+      },
+      "fia utan knuff": {
+        "titel": "Fia Utan Knuff",
+        "beskrivning": "Ett roligt spel för max 4 personer.",
+        "imgsrc": "fia_utan_knuff.jpg",
+        "betyg": 5,
+        "pris": {
+          "orginal": 199,
+          "rea": 33
+        },
+        "lager": 49,
+        "alder": "1+",
+        "kommentarer": [
+          {
+            "namn": "Rasmus R.",
+            "kommentar": "Det här är ju en kopia på fia MED knuff. Men jag gillar det här spelets regler mer.",
+            "betyg": 5
+          }
+        ]
+      },
+      "hangman": {
+        "titel": "Hänga gubbe",
+        "beskrivning": "Ett klassiskt och ett väldigt morbid spel. OBS. 18+. Innehåller: '1x penna'",
+        "imgsrc": "hangman.jpg",
+        "betyg": 3,
+        "pris": {
+          "orginal": 89,
+          "rea": 69
+        },
+        "lager": 80,
+        "alder": "18+",
+        "kommentarer": [
+          {
+            "namn": "Lill-Erik",
+            "kommentar": "Riktigt sjukt spel om man tänker efter. Gillart' hehe",
+            "betyg": 1
+          },
+          {
+            "namn": "Lill-Erik",
+            "kommentar": "Oj, råkade lämna bara 1 stjärna i min andra review. Menade att ge 5.",
+            "betyg": 5
+          }
+        ]
+      }
+    }
+  }
+}

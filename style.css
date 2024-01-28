@@ -1,0 +1,587 @@
+:root {
+    --main-bg-color: #F6FFF8;
+    --header-bg-color: #2A2D34;
+    --price-color: #A31621;
+    --img-bg-color: #E3F9FF;
+    --button-bg-color: #087F8C;
+
+    --disabled-button-bg-color: #768e91;
+
+    --active-font: 'Comic Sans MS', cursive;
+
+    --scale-modifier: 1;
+}
+
+.game-wrapper {
+    width: 212px;
+    height: 264px;
+    border: 1px solid black;
+}
+
+.game-wrapper img {
+    width: calc(128px - 32px);
+    height: calc(128px - 32px);
+}
+
+.info-wrapper {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cover-wrapper {
+    width: 100%;
+    height: calc(156px - 32px);
+    background-color: var(--img-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-wrapper h1 {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.desc {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.price {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.rea {
+    color: var(--price-color);
+}
+
+.ordinary {
+    text-decoration: line-through;
+}
+
+.categories-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.games-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--active-font);
+}
+
+header {
+    width: 100%;
+    height: 64px;
+    background-color: var(--header-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--main-bg-color);
+    margin-bottom: 16px;
+}
+
+header img {
+    width: 32px;
+    height: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.buy-wrapper button {
+    color: var(--main-bg-color);
+    background-color: var(--button-bg-color);
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    width: 64px;
+}
+
+.buy-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+
+MINIGAME 1
+
+*/
+
+#minigame-1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#minigame-1 h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+#minigame-1 #seconds-left {
+    font-weight: bold;
+}
+
+#minigame-1 #click-amount {
+    font-weight: bold;
+    color: yellow;
+}
+
+#minigame-1 #goal-amount {
+    font-weight: bold;
+}
+
+#minigame-1 a {
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#minigame-1 a:hover {
+    background-color: orange;
+}
+
+/*
+
+DICE
+
+*/
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+#dice-wrapper {
+    width: 128px;
+    height: 128px;
+    background-size: cover;
+}
+
+#dice {
+    width: 100%;
+    height: 100%;
+    background-image: url('dice-1.png');
+}
+
+
+
+
+.game-page {
+    display: none;
+    flex-direction: row;
+    width: 50%;
+    margin: auto;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.game-page img {
+    background-color: lightblue;
+    width: 256px;
+    height: 256px;
+}
+
+#konto:hover {
+    cursor: pointer;
+}
+
+#amount-wrapper button {
+    color: var(--main-bg-color);
+    background-color: var(--button-bg-color);
+    margin-left: 8px;
+    width: 48px;
+}
+
+#basket:hover {
+    cursor: pointer;
+}
+
+#basket-btn {
+    color: var(--main-bg-color);
+    background-color: var(--button-bg-color);
+}
+
+#basket-btn[disabled] {
+    color: var(--main-bg-color);
+    background-color: var(--disabled-button-bg-color);
+}
+
+#amount-wrapper p {
+    margin: 0;
+    padding: 0;
+}
+
+#amount-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+#amount {
+    width: 64px;
+}
+
+#game-meta h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+
+Chat
+
+*/
+
+#chat-container {
+    width: 300px;
+    background-color: var(--img-bg-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    overflow: hidden;
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    display: none;
+}
+
+.message {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.user-message {
+    background-color: var(--main-bg-color);
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.bot-message {
+    background-color: var(--main-bg-color);
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.timestamp {
+    font-size: 12px;
+    color: var(--disabled-button-bg-color);
+}
+
+.chat-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--header-bg-color);
+    color: var(--main-bg-color);
+}
+
+.chat-header h1 {
+    margin: 0;
+    font-size: 16px;
+    padding: 4px;
+}
+
+.chat-header p {
+    color: red;
+    margin: 0;
+    font-size: 16px;
+    padding: 4px;
+}
+
+#answers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#chat-action {
+    font-size: 12px;
+    margin-left: 10px;
+    /*display: none;*/
+}
+
+.message-answer {
+    background-color: var(--disabled-button-bg-color);
+    margin: 10px;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.message-answer:hover {
+    background-color: var(--button-bg-color);
+    color: var(--main-bg-color);
+    cursor: pointer;
+    margin: 10px;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+/*
+
+FALLING
+
+*/
+
+.falling-element {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+}
+
+.mouse-follower {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(-50%);
+    transition: transform 0.2s ease;
+}
+
+.mouse-follower img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo img {
+    padding: 0;
+    margin: 0;
+}
+
+#br {
+    width: calc(316px*0.1);
+}
+
+#e {
+    width: calc(148px*0.1*var(--scale-modifier));
+}
+
+#dspel {
+    width: calc(850px*0.1);
+}
+
+
+
+#pop-up {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+}
+
+#event-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#event-info p {
+    font-size: 18px;
+    color: #333;
+}
+
+#event-info button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+}
+
+#basket-amount {
+    font-size: 12px; 
+    position: absolute; 
+    top: 16px; 
+    left: 14px; 
+    background-color: red; 
+    border-radius: 50%; 
+    color: white; 
+    padding: 1px 5px;
+}
+
+/*
+
+SHOP CART
+
+*/
+
+.basket-preview {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: auto;
+    background-color: #f7f7f7;
+    width: 320px;
+}
+
+.items-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.preview-item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 8px;
+}
+
+.product-img-wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-info-wrapper {
+    margin-left: 20px;
+}
+
+.product-info-wrapper h1 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.product-info-wrapper p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+#buy-all {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-right: 8px;
+}
+
+#buy-all:hover {
+    background-color: #0056b3;
+}
+
+#buy-final {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.review {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+.reviewer {
+    font-weight: bold;
+}
+.rating {
+    color: #ff9900;
+}
+.comment {
+    margin-top: 5px;
+}

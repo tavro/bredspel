@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Bredspel 👍</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header id="header">
+            <div>
+                <img src="res/images/konto.png" id="konto">
+            </div>
+            <div class="logo">
+                <img id="br" src="res/images/Logo-br.png">
+                <img id="e" src="res/images/Logo-e.png">
+                <img id="dspel" src="res/images/Logo-dspel.png">
+            </div>
+            <div id="basket" style="position: relative;">
+                <img src="res/images/vagn.png">
+                <span id="basket-amount">0</span>
+            </div>
+        </header>
+
+        <div class="basket-preview" id="basket-prev" style="display: none;">
+            <div id="buy-final">
+                <button id="buy-all">Köp allt i varukorgen</button>
+                <p>Totalten räknas ut på egen hand. Miniräknare säljs separat</p>
+            </div>
+        </div>
+
+        <center>
+            <div id="end" style="width: 50%; display: none;">
+                    <img src="res/images/konkurs.png">
+                    <br>
+                    <p>Hej kära kund! Tyvärr gick vi precis just nu i konkurs.</p>
+                    <p>Om ni nyligen har beställt en produkt av oss kan ni höra av er till Jens via plattformen x så får han fixa det: <a href="https://twitter.com/Jenstheplaya">@Jenstheplaya</a></p>
+                    <p>Om det blir relevant med en potentiell nystart kommer vi lägga ut uppdateringar på instagram: <a href="https://www.instagram.com/bredspel/">https://www.instagram.com/bredspel/</a></p>
+            </div>
+        </center>
+
+        <div class="mouse-follower" id="follower" style="display: none;">
+            <img src="res/images/shopping-cart.png">
+        </div>
+        <div class="game-page">
+            <div>
+                <img id="game-img" src="#">
+                <p><b>Ålder:</b><span id="age"></span></p>
+                <p><b>Lager:</b><span id="stock"></span></p>
+                <div id="reviews-wrapper"></div>
+            </div>
+            <div>
+                <div id="game-meta">
+                    <h1 id="game-title">Titel på spel</h1>
+                    <hr>
+                    <p id="game-desc">Det här är en beskrivning för spelet</p>
+                </div>
+                <div id="amount-wrapper">
+                    <p id="amount">0</p>
+                    <p id="correct-amount">Rätt antal?</p>
+                    <button id="accept-btn">Ja</button>
+                    <button id="random-btn">Nej</button>
+                </div>
+                <hr>
+                <button id="basket-btn" disabled>Lägg i varukorgen</button>
+            </div>
+        </div>
+        <div class="categories-wrapper"></div>
+        <div id="overlay">
+            <div id="dice-wrapper">
+                <div id="dice"></div>
+            </div>
+        </div>
+        <div id="pop-up">
+            <div id="event-info">
+                <span class="close-button" onclick="closePopup()">&times;</span>
+                <p id="event-text">This is a test pop-up notice.</p>
+                <button onclick="closePopup()">Close</button>
+            </div>
+        </div>
+        <div id="chat-container">
+            <div class="chat-header">
+                <h1>Konversation med kundtjänst</h1>
+                <p id="close-chat"><b>x</b></p>
+            </div>
+            <div id="answers">
+                <div class="message-answer">Kan du slå tärningen åt mig?</div>
+                <div class="message-answer">Kan du tipsa mig om roliga twitterkonton att följa?</div>
+                <div class="message-answer">Vart hittar jag de breda spelen?</div>
+            </div>
+        </div>
+        <!--
+        <div id="minigame-1">
+            <h1>Tid kvar: <span id="seconds-left">300</span> sekunder</h1>
+            <h1>Antal knapptryck <span id="click-amount">0</span>/<span id="goal-amount">100</span></h1>
+            <a id="buy-button">Köp</a>
+        </div>
+        -->
+    </body>
+</html>
